@@ -17,12 +17,12 @@ nav.top.no_sticky{position:absolute;top:initial}
 .cta_form button[type=submit]{width:100%}
 }
 .content{max-width:1014px;padding-left:1.59rem;padding-right:1.59rem;margin-left:auto;margin-right:auto}
-#where_work_happens_svg_wrapper{position:absolute;z-index:1;bottom:0;right:0;margin-right:20px;margin-bottom:20px;background-size:contain;background-repeat:no-repeat;background-position:bottom right;background-image:url(/5eb00/img/landing/where_work_happens/illustration_wall.png);transition:height .2s,width .2s;will-change:height,width;transform:translate3d(0,0,0);height:550px;width:595.4px}
-@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens_svg_wrapper{background-image:url(/5eb00/img/landing/where_work_happens/illustration_wall@2x.png)}
+#where_work_happens_svg_wrapper{position:absolute;z-index:1;bottom:0;right:0;margin-right:20px;margin-bottom:20px;background-size:contain;background-repeat:no-repeat;background-position:bottom right;background-image:url(https://a.slack-edge.com/5eb00/img/landing/where_work_happens/illustration_wall.png);transition:height .2s,width .2s;will-change:height,width;transform:translate3d(0,0,0);height:550px;width:595.4px}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens_svg_wrapper{background-image:url(https://a.slack-edge.com/5eb00/img/landing/where_work_happens/illustration_wall@2x.png)}
 }
-@media only screen and (min-width:1800px){#where_work_happens_svg_wrapper{background-image:url(/b6983/img/landing/where_work_happens/illos-large.png);width:100%}
+@media only screen and (min-width:1800px){#where_work_happens_svg_wrapper{background-image:url(https://a.slack-edge.com/b6983/img/landing/where_work_happens/illos-large.png);width:100%}
 }
-@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1800px),only screen and (min-resolution:192dpi) and (min-width:1800px),only screen and (min-resolution:2dppx) and (min-width:1800px){#where_work_happens_svg_wrapper{background-image:url(/b6983/img/landing/where_work_happens/illos-large@2x.png)}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1800px),only screen and (min-resolution:192dpi) and (min-width:1800px),only screen and (min-resolution:2dppx) and (min-width:1800px){#where_work_happens_svg_wrapper{background-image:url(https://a.slack-edge.com/b6983/img/landing/where_work_happens/illos-large@2x.png)}
 }
 @media only screen and (max-width:1130px){#where_work_happens_svg_wrapper{height:540px;width:584.6px}
 }
@@ -46,21 +46,21 @@ nav.top.no_sticky{position:absolute;top:initial}
 }
 @media only screen and (max-width:615px){#where_work_happens_svg_wrapper{display:none}
 }
-#where_work_happens_illo_mobile{height:16vw;z-index:10;display:block;position:absolute;transform:translateY(-100%);top:0;right:1.59rem;left:1.59rem;margin-top:1.5rem;background-size:contain;background-repeat:no-repeat;background-position:center center;background-image:url(/cbe6f/img/landing/where_work_happens/illos-mobile.png)}
+#where_work_happens_illo_mobile{height:16vw;z-index:10;display:block;position:absolute;transform:translateY(-100%);top:0;right:1.59rem;left:1.59rem;margin-top:1.5rem;background-size:contain;background-repeat:no-repeat;background-position:center center;background-image:url(https://a.slack-edge.com/cbe6f/img/landing/where_work_happens/illos-mobile.png)}
 @media only screen and (min-width:616px){#where_work_happens_illo_mobile{display:none}
 }
-@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens_illo_mobile{background-image:url(/4cb14/img/landing/where_work_happens/illos-mobile@2x.png)}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens_illo_mobile{background-image:url(https://a.slack-edge.com/4cb14/img/landing/where_work_happens/illos-mobile@2x.png)}
 }
 .where_work_happens.where_work_happens nav .btn_sticky,.where_work_happens.where_work_happens nav ul a{color:#253039}
 .where_work_happens.where_work_happens nav .btn_sticky{box-shadow:inset 0 0 0 2px #253039}
 .where_work_happens.where_work_happens nav .btn_sticky:hover{box-shadow:inset 0 0 0 2px #000}
-.where_work_happens.where_work_happens nav .logo{background-image:url(/5eb00/img/landing/where_work_happens/logo-dark-blue.png);background-size:105px 30px}
-@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.where_work_happens.where_work_happens nav .logo{background-image:url(/5eb00/img/landing/where_work_happens/logo-dark-blue@2x.png)}
+.where_work_happens.where_work_happens nav .logo{background-image:url(https://a.slack-edge.com/5eb00/img/landing/where_work_happens/logo-dark-blue.png);background-size:105px 30px}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.where_work_happens.where_work_happens nav .logo{background-image:url(https://a.slack-edge.com/5eb00/img/landing/where_work_happens/logo-dark-blue@2x.png)}
 }
 @media only screen and (max-width:768px){.show_mobile_nav.show_mobile_nav nav .btn_sticky,.show_mobile_nav.show_mobile_nav nav ul a{color:#fff}
-.show_mobile_nav.show_mobile_nav nav .logo{background-image:url(/66f9/img/landing/header_logo_sprite.png);background-size:105px 60px}
+.show_mobile_nav.show_mobile_nav nav .logo{background-image:url(https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png);background-size:105px 60px}
 }
-@media only screen and (max-width:768px),and (-webkit-min-device-pixel-ratio:2){.show_mobile_nav.show_mobile_nav nav .logo{background-image:url(/66f9/img/landing/header_logo_sprite@2x.png);background-size:105px 60px}
+@media only screen and (max-width:768px),and (-webkit-min-device-pixel-ratio:2){.show_mobile_nav.show_mobile_nav nav .logo{background-image:url(https://a.slack-edge.com/66f9/img/landing/header_logo_sprite@2x.png);background-size:105px 60px}
 }
 .outer-wrapper{height:100vh;min-height:1000px;display:flex;flex-direction:column}
 @media only screen and (min-height:1000px){.outer-wrapper{justify-content:space-between}
@@ -95,8 +95,8 @@ nav.top.no_sticky{position:absolute;top:initial}
 #where_work_happens .headline{white-space:normal;margin-bottom:20px}
 #where_work_happens .subhead br{display:none}
 }
-#where_work_happens .asterisk{position:relative;top:-.15em;vertical-align:top;right:-.05em;background-image:url(/c035b/img/landing/where_work_happens/asterisk.png);background-size:contain;background-position:center center;background-repeat:no-repeat;color:transparent}
-@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens .asterisk{background-image:url(/cbe6f/img/landing/where_work_happens/asterisk@2x.png)}
+#where_work_happens .asterisk{position:relative;top:-.15em;vertical-align:top;right:-.05em;background-image:url(https://a.slack-edge.com/c035b/img/landing/where_work_happens/asterisk.png);background-size:contain;background-position:center center;background-repeat:no-repeat;color:transparent}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#where_work_happens .asterisk{background-image:url(https://a.slack-edge.com/cbe6f/img/landing/where_work_happens/asterisk@2x.png)}
 }
 #where_work_happens .asterisk.alt{font-family:Slack-Lato,appleLogo,sans-serif;font-weight:900;text-shadow:none;color:#e32072;font-size:2em;line-height:0;vertical-align:bottom;top:-.2em;right:0;background-image:none;position:relative;margin-right:.1em}
 #where_work_happens .cta_wrapper{position:relative;z-index:1;display:flex;flex-direction:column}
