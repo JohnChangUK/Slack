@@ -15,7 +15,9 @@ var path = require('path')
 gulp.task('css', function(){
     return gulp.src(
             [
-                './assets/css/bootstrap.css',
+                './assets/css/rollup_brand.css',
+                './assets/css/where_work_happens.css',
+                './assets/css/marketing_frontiers_banner.css'
             ]
         )
         .pipe(sourcemaps.init())
@@ -72,6 +74,3 @@ gulp.task('watch', function() {
 
 gulp.task('prod', ['style', 'copy-images', 'js', 'app'], function(){})
 gulp.task('default', ['style', 'copy-images', 'js', 'app', 'watch'], function(){})
-
-
-
