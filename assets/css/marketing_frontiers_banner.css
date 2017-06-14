@@ -1,0 +1,17 @@
+@font-face{font-family:appleLogo;src:local("Lucida Grande");unicode-range:U+F8FF}
+.frontiers_banner{display:flex;align-items:center;position:fixed;top:0;left:0;right:0;z-index:110;height:68px;background-color:#1a1938;padding-right:40px;padding-left:40px}
+.frontiers_banner__content{display:flex;align-items:center;-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;line-height:1;font-size:16px;width:100%;padding-left:40px;padding-right:40px;text-align:center}
+@media only screen and (max-width:640px){.frontiers_banner__content{font-size:13px;padding-left:10px;padding-right:10px;text-align:left}
+}
+.frontiers_banner__icon{height:14px;padding-right:1.5rem}
+@media only screen and (max-width:640px){.frontiers_banner__icon{padding-right:.5rem}
+}
+.frontiers_banner__dismiss{-webkit-font-smoothing:antialiased;font-family:Slack-Lato,appleLogo,sans-serif;color:#fff;background:0 0;border:none;padding:2px 0 0;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:inherit;font-weight:inherit;line-height:inherit;outline:0;position:absolute;z-index:1;top:50%;right:.85rem;height:32px;width:32px;cursor:pointer;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.frontiers_banner__dismiss:active,.frontiers_banner__dismiss:focus,.frontiers_banner__dismiss:hover{color:#9e9ea6;transition:color .25s ease-in-out}
+.frontiers_banner__closed{display:none}
+.frontiers_banner a,.frontiers_banner a:link{color:#fff;text-decoration:none;font-family:Slack-Lato,appleLogo,sans-serif;font-weight:700}
+.frontiers_banner .link{color:#fff;text-decoration:underline}
+@media only screen and (min-width:640px){.frontiers_banner .link{font-family:Slack-Lato,appleLogo,sans-serif;font-weight:900}
+}
+.frontiers_banner~nav.top{top:68px}
+.frontiers_banner~.outer-wrapper{padding-top:68px}
