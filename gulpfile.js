@@ -11,6 +11,23 @@ var gp_uglify = require('gulp-uglify')
 var less = require('gulp-less')
 var path = require('path')
 
+gulp.task('get-started', function(){
+    return gulp.src(
+            [
+              './assets/css/rollup-plastic.css',
+              './assets/css/find_team.css',
+              './assets/css/lato-2-compressed.css',
+              './assets/css/sticky_nav.css',
+              './assets/css/footer.css'
+            ]
+        )
+        .pipe(sourcemaps.init())
+        .pipe(minifyCSS())
+        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
+        .pipe(gp_concat('get-started.min.css'))
+        .pipe(sourcemaps.write('/'))
+        .pipe(gulp.dest('./dist/css/'))
+})
 
 gulp.task('css', function(){
     return gulp.src(
@@ -28,7 +45,7 @@ gulp.task('css', function(){
         .pipe(gulp.dest('./dist/css/'))
 })
 
-gulp.task('style', ['css'], function(){})
+gulp.task('style', ['css', 'get-started'], function(){})
 
 
 gulp.task('js', function(){
@@ -74,6 +91,3 @@ gulp.task('watch', function() {
 
 gulp.task('prod', ['style', 'copy-images', 'js', 'app'], function(){})
 gulp.task('default', ['style', 'copy-images', 'js', 'app', 'watch'], function(){})
-
-
-
