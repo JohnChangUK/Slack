@@ -26,5 +26,6 @@
     "index.html",
     "dist",
     "get-started"
-  ]
+  ],
+  "app": "593d9d81fd173e00115bbb26"
 }
