@@ -5,6 +5,15 @@
   // Initialize Turbo SDK
   var turbo = Turbo({ site_id: '593d9d81fd173e00115bbb26' });
 
+  turbo.currentUser(function(err, data){
+    if (err){
+      console.log('Current User Error: ' + err.message)
+      return
+    }
+    console.log("Current USER: " + JSON.stringify(data))
+    $('#greeting').html('Hello ' + data.user.email)
+  })
+
   $('#btn-sign-up').click(function(event){
     event.preventDefault()
 
